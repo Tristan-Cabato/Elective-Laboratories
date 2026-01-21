@@ -1,0 +1,4 @@
+I found Repetition and Proximity in the CRAP Principle to be the most useful when creating the Presentation. 
+Not only was my workflow faster because I didn't need to think of being more unique in the following slides, it also emphasized my preferred style to the audience. 
+While not inherently 'hard,' I found the lack of modularity (aside from color modification) in pre-existing graphics and elements in Canva to be annoying because even a minor change like wanting to reposition a line within it is impossible. 
+Regarding visual communication, I found it helpful to hide certain elements before I talk about it (via blocking walls of text with my body in the video), helping with audience focus. 

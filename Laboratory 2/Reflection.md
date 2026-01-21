@@ -1,0 +1,5 @@
+The repeating motif in my branding is highly influenced by the logo of Opera GX, my pre-existing liking of Glaucous Blue, and visuals of minimalistic Game Designs. 
+My color palette wasn't something thought of on the spot but rather something I've had in mind for a long time.
+My color palette bias had always been predominantly blue; being Red-Blue-Black Pre-2015, Blue-Gray-Purple with lighter saturation Pre-2021, and now I can incorporate the lighter tones of Blue in my brand.
+My main challenge in logo creation was figuring out what I wanted in the first place. I never had true logos, but I do have several character icons as profile pictures, so I took the color scheme of one my icons and placed it on a dual scythe with a circle background.
+I see potential in the branding I've made, I can definitely use it more with just slight modifications with the logo and taglines.
