@@ -1,0 +1,1 @@
+https://artistry-mockup-central--kyokitaku.replit.app

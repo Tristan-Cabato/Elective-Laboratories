@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap">
+    <title>No AI</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+        .pixelify-sans {
+            font-family: "Pixelify Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .float-animation {
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-8px) scale(1.02);
+        }
+
+        .icon-container {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(59, 130, 246, 0.2) 100%);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            transition: all 0.4s ease;
+        }
+
+        .glass-card:hover .icon-container {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.4) 0%, rgba(59, 130, 246, 0.4) 100%);
+            box-shadow: 0 0 30px rgba(139, 92, 246, 0.4);
+        }
+
+        .mesh-bg {
+            background: 
+                radial-gradient(at 40% 20%, rgba(139, 92, 246, 0.15) 0px, transparent 50%),
+                radial-gradient(at 80% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%),
+                radial-gradient(at 0% 50%, rgba(236, 72, 153, 0.1) 0px, transparent 50%),
+                radial-gradient(at 80% 50%, rgba(16, 185, 129, 0.1) 0px, transparent 50%),
+                radial-gradient(at 0% 100%, rgba(139, 92, 246, 0.1) 0px, transparent 50%),
+                #0f0f1a;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen mesh-bg text-white pixelify-sans items-center justify-center p-8">
+    <div class="text-center mb-16 float-animation">
+        <h1 class="text-5xl md:text-6xl font-bold bg-gradient-to-r from-violet-400 via-blue-400 to-pink-400 bg-clip-text text-transparent drop-shadow-lg">
+            Multi-Media Platforms
+        </h1>
+        <p class="text-gray-400 mt-4 text-lg">Explore your creative universe</p>
+    </div>
+    
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl w-full">
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center gap-4 cursor-pointer group">
+            <div class="icon-container w-20 h-20 rounded-2xl flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                🎮
+            </div>
+            <p class="text-center text-lg font-medium text-gray-200 group-hover:text-white transition-colors">Gaming</p>
+            <div class="w-12 h-1 rounded-full bg-gradient-to-r from-violet-500 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center gap-4 cursor-pointer group">
+            <div class="icon-container w-20 h-20 rounded-2xl flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                🎵
+            </div>
+            <p class="text-center text-lg font-medium text-gray-200 group-hover:text-white transition-colors">Music</p>
+            <div class="w-12 h-1 rounded-full bg-gradient-to-r from-violet-500 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center gap-4 cursor-pointer group">
+            <div class="icon-container w-20 h-20 rounded-2xl flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                🎬
+            </div>
+            <p class="text-center text-lg font-medium text-gray-200 group-hover:text-white transition-colors">Movies</p>
+            <div class="w-12 h-1 rounded-full bg-gradient-to-r from-violet-500 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center gap-4 cursor-pointer group">
+            <div class="icon-container w-20 h-20 rounded-2xl flex items-center justify-center text-4xl group-hover:scale-110 transition-transform duration-300">
+                🎨
+            </div>
+            <p class="text-center text-lg font-medium text-gray-200 group-hover:text-white transition-colors">Drawing</p>
+            <div class="w-12 h-1 rounded-full bg-gradient-to-r from-violet-500 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+    </div>
+
+    <div class="absolute bottom-8 text-gray-600 text-sm">
+        <span class="opacity-50">Click any category to explore</span>
+    </div>
+</body>
+</html>
